@@ -23,8 +23,8 @@ struct PortfolioAppApp: App {
             }
                 .environment(\.managedObjectContext, dataController.container.viewContext)
                 .environmentObject(dataController)
-                .onChange(of: scenePhase) { phase in
-                    if phase != .active {
+                .onChange(of: scenePhase) { oldValue, newValue in
+                    if newValue != .active {
                         dataController.save()
                     }
                 }
