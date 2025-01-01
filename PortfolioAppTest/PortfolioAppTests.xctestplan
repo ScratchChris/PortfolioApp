@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "ED3D16AA-C539-40E1-9D8A-244202B94392",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:PortfolioApp.xcodeproj",
+      "identifier" : "830E7AAE2C5CC05E00D5604C",
+      "name" : "PortfolioApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:PortfolioApp.xcodeproj",
+        "identifier" : "83391AF82D25D7E2005BF30E",
+        "name" : "PortfolioAppTest"
+      }
+    }
+  ],
+  "version" : 1
+}
